@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="https://raw.githubusercontent.com/gustavohks2/truth-or-dare-sorter/master/img/bottle.png" />
+  <title>flip card</title>
+</head>
+<body>
+  <section class="perspective-container center">
+   <div class="front-card">
+     <h2>truth or dare sorter</h2>
+     <div class="bottle"></div>
+     <input id="applicant-input" type="text" placeholder="applicant" />
+     <button id="add-applicant-btn" type="button" class="add-applicant">add</button>
+     <div id="tags-container" class="tags-container">
+    
+     </div>
+     <button id="sort-btn" type="button" name="button" class="sort-btn btn">sort</button>
+
+   </div>
+   <div class="back-card">
+    <h2>the winner is</h2>
+    <p id="result"></p>
+    <button id="sort-again-btn" type="button" class="sort-again btn">sort again</button>
+    <button id="play-again-btn" type="button" class="play-again btn">play again</button>
+   </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
